@@ -5,7 +5,7 @@ android {
     buildToolsVersion '22.0.1'
 
     defaultConfig {
-        minSdkVersion 12
+        minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -24,6 +24,6 @@ android {
 
 dependencies {
     // Orange Cloud Android Sdk
-    compile project(':library')
-    //compile 'com.github.laurentsouchet-orange:afilechooser:1.0.0'
+    //compile project(':library')
+    compile 'com.github.laurentsouchet-orange:Homepoint-filebrowser:1.0.0'
 }
