@@ -24,6 +24,6 @@ android {
 
 dependencies {
     // Orange Cloud Android Sdk
-    //compile project(':library')
-    compile 'com.github.laurentsouchet-orange:Homepoint-filebrowser:1.0.0'
+    compile project(':library')
+    //compile 'com.github.laurentsouchet-orange:Homepoint-filebrowser:1.0.1'
 }

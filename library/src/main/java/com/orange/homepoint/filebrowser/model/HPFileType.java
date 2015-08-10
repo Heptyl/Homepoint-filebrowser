@@ -8,7 +8,7 @@ import com.orange.homepoint.filebrowser.utils.HPFileTypeUtils;
 
 
 public enum HPFileType {
-    MEDIA_IMAGE(HPFileTypeUtils.PHOTO_FORCE), MEDIA_VIDEO(HPFileTypeUtils.VIDEO_FORCE), MEDIA_AUDIO(HPFileTypeUtils.AUDIO_FORCE), OTHER(HPFileTypeUtils.OTHER_FORCE);
+    DIRECTORY(HPFileTypeUtils.DIRECTORY_FORCE), MEDIA_IMAGE(HPFileTypeUtils.PHOTO_FORCE), MEDIA_VIDEO(HPFileTypeUtils.VIDEO_FORCE), MEDIA_AUDIO(HPFileTypeUtils.AUDIO_FORCE), OTHER(HPFileTypeUtils.OTHER_FORCE);
 
     protected int force;
 
