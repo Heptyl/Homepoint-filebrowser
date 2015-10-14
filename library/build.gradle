@@ -2,12 +2,12 @@ apply plugin: 'com.android.library'
 //apply plugin: 'com.github.dcendents.android-maven'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion '22.0.1'
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 22
+        targetSdkVersion 23
         versionCode 1
         versionName "0.1"
     }
@@ -27,10 +27,10 @@ dependencies {
     // add dependencies here
 
     // http://developer.android.com/tools/support-library/index.html
-    compile 'com.android.support:support-v4:22.+'
+    compile 'com.android.support:support-v4:23.+'
 
     // Lib : google gson http://code.google.com/p/google-gson/
-    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.google.code.gson:gson:2.3.1'
 
     // Lib : java samba client : https://github.com/javonhe/jcifs
     compile 'jcifs:jcifs:1.3.17+'
