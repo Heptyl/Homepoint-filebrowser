@@ -120,6 +120,10 @@ public class HPFile implements Parcelable {
         this.type = HPFileTypeUtils.retrieveFileTypeFromSamba(HPFileUtils.getFirstMimeType(this.mimeType));
     }
 
+    public HPFile() {
+
+    }
+
     public void addHPSambaContent(HPSambaContent hpSambaContent) {
         this.hasDlnaInfos = HAS_DLNA_INFOS;
 
